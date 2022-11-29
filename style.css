@@ -1,6 +1,4 @@
-body{
-    
-    
+body{ 
 
 }
 
@@ -81,25 +79,45 @@ ul {
 }
 
 .second-content {
-    flex-direction: column;
-    text-align: center;
+   text-align: center;
+   padding-top: 8px;
+   padding-left: 450px;
+   padding-right: 450px; 
+}
 
+.h1 {  
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
 
-
+.container1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 16px;
+    padding-bottom: 60px;
 }
 
 .info {
     display: flex;
     flex-direction: column;
-    width: 100px;
-    height: auto
+    border-radius: 25px;
+    border: 3px solid #3882f6;
+    padding: 15px;
+    width: 200px;
+    height: 250px;
+}
+
+.infotext {
+    padding: 16px;
+    font-family: Tahoma, sans-serif;
 }
 
 .third-content{
     background-color: #E5E7EB;
     text-align: center;
-
-
+    padding-bottom: 48px;
 }
 
 .fourth-content {
@@ -108,6 +126,16 @@ ul {
 
 .footer {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #f9faf8;
+    padding-left: 450px;
+    padding-right: 450px;  
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .sign-up-bottom {
