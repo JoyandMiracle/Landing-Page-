@@ -13,8 +13,8 @@ body{
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
-    padding-left: 128px;
-    padding-right: 128px;
+    padding-left: 450px;
+    padding-right: 450px;  
 }
 
 a {
@@ -31,11 +31,48 @@ ul {
 }
 
 .first-content {
-    padding-left: 128px;
-    padding-right: 128px;
+    display: flex;
+    align-items: center;
+    padding-top: 48px;
+    padding-left: 450px;
+    padding-right: 450px;    
+    background-color: #E5E7EB;
+    justify-content: space-between;
+    padding-bottom: 48px;
+}
 
+.leftcontent {
+    display: flex;
+    flex-direction: column;
+}
+
+.awesometext {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
     
-   
+}
+
+.subtext {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.sign-up-top {
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    width: 100px;
+    height: 35px;  
+}
+
+.sushiimage {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
 }
 
 .header, .first-content {
@@ -71,4 +108,13 @@ ul {
 
 .footer {
     background-color: #1F2937;
+}
+
+.sign-up-bottom {
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    width: 100px;
 }
