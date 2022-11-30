@@ -37,11 +37,13 @@ ul {
     background-color: #E5E7EB;
     justify-content: space-between;
     padding-bottom: 48px;
+    gap: 32px;
 }
 
 .leftcontent {
     display: flex;
     flex-direction: column;
+    width: 500px;
 }
 
 .awesometext {
@@ -62,6 +64,7 @@ ul {
     background-color: #3882f6;
     color: white;
     font-weight: bold;
+    margin-top: 8px;
     padding: 8px;
     width: 100px;
     height: 35px;  
@@ -70,7 +73,7 @@ ul {
 .sushiimage {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 375px;
     height: 300px;
 }
 
