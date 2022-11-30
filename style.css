@@ -115,13 +115,74 @@ ul {
 }
 
 .third-content{
+    display: flex;
     background-color: #E5E7EB;
-    text-align: center;
+    justify-content: center;
+    text-align: left;
     padding-bottom: 48px;
 }
 
-.fourth-content {
+.container2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
 
+.quote-text {
+    padding: 16px;
+    margin: 16px;
+    width: 750px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author-text {
+    display: flex;
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 64px;
+}
+
+.fourth-content {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.signup-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882f6;
+    width: 850px;
+    height: 125px;
+    color: white;
+    margin:  64px;
+    border-radius: 10px;
+  
+}
+
+.signupl {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sign-up-bottom {
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    width: 100px;
+}
+
+.timetext {
+    font-weight: bold;
 }
 
 .footer {
@@ -138,11 +199,3 @@ ul {
     padding-bottom: 16px;
 }
 
-.sign-up-bottom {
-    border-radius: 10px;
-    background-color: #3882f6;
-    color: white;
-    font-weight: bold;
-    padding: 8px;
-    width: 100px;
-}
